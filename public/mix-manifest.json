@@ -1,0 +1,18 @@
+{
+    "/js/App.js": "/js/App.js",
+    "/css/app.css": "/css/app.css",
+    "/js/components/Navbar.js": "/js/components/Navbar.js",
+    "/js/components/ProtectedRoute.js": "/js/components/ProtectedRoute.js",
+    "/js/helpers/auth-header.js": "/js/helpers/auth-header.js",
+    "/js/helpers/handle-response.js": "/js/helpers/handle-response.js",
+    "/js/main.js": "/js/main.js",
+    "/js/routes/Admin.js": "/js/routes/Admin.js",
+    "/js/routes/Home.js": "/js/routes/Home.js",
+    "/js/routes/Login.js": "/js/routes/Login.js",
+    "/js/routes/Register.js": "/js/routes/Register.js",
+    "/js/routes/Section1.js": "/js/routes/Section1.js",
+    "/js/routes/Section2.js": "/js/routes/Section2.js",
+    "/js/services/authentication.service.js": "/js/services/authentication.service.js",
+    "/js/services/registration.service.js": "/js/services/registration.service.js",
+    "/main.js": "/main.js"
+}

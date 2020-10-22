@@ -1,0 +1,64 @@
+// resources/sass/app.scss
+@import '~antd/dist/antd.css';
+
+$primary: red;
+
+body {
+    color: $primary;
+}
+
+.site-layout-content {
+    background: #fff;
+    padding: 24px;
+    min-height: 80vh;
+    margin-top: 32px;
+  }
+.logo {
+    //width: 152px;
+    //height: 31px;
+    background-image: url("/img/logo.png");
+    //background-size: 152px;
+    background-repeat: no-repeat;
+    margin: 16px 24px 16px 0;
+    float: left;
+}
+
+[data-theme="dark"] .site-layout-content {
+    background: #141414;
+}
+[data-theme="dark"] .logo {
+    background: #ffffff4d;
+}
+
+.login-form {
+    max-width: 300px;
+}
+.login-form-forgot {
+    float: right;
+}
+.ant-col-rtl .login-form-forgot {
+    float: left;
+}
+.login-form-button {
+    width: 100%;
+}
+
+.error-text {
+    color: #ff4d4f;
+}
+
+.h-node {
+    opacity: 0;    
+}
+.node-enter-enter { 
+    opacity: 0;
+}
+.node-enter-active { 
+    opacity: 1;
+    transform: translateY(0%) scale(1);
+    transition: all 1000ms ease-in-out;
+ }
+
+ .node-enter-done {
+    opacity: 1;
+ }
